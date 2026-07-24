@@ -16,11 +16,11 @@ npm run build      # genera /dist para producción
 ### 1) Subir a GitHub
 ```bash
 cd electrocablealvear-web
-git remote add origin https://github.com/TU_USUARIO/electrocablealvear-web.git
+git remote add origin https://github.com/noirpress-store/electrocablealvear-web.git
 git branch -M main
 git push -u origin main
 ```
-(Creá antes el repo vacío en https://github.com/new — sin README.)
+(Creá antes el repo vacío `electrocablealvear-web` en la cuenta noirpress-store: https://github.com/new — sin README.)
 
 ### 2) Importar en Vercel
 1. Entrá a https://vercel.com/new
