@@ -517,8 +517,7 @@ function StyleTag() {
 .eca-brands{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
 .eca-brand{border-right:1px solid var(--line);border-bottom:1px solid var(--line);height:118px;display:flex;align-items:center;justify-content:center;padding:22px 26px;transition:background .18s}
 .eca-brand:hover{background:#fafbfc}
-.eca-brand img{width:100%;height:100%;object-fit:contain;filter:grayscale(1);opacity:.72;transition:filter .2s,opacity .2s}
-.eca-brand:hover img{filter:none;opacity:1}
+.eca-brand img{width:100%;height:100%;object-fit:contain}
 
 /* Ubicación */
 .eca-loc{display:grid;grid-template-columns:1fr 1.15fr;gap:32px;align-items:stretch}
@@ -591,8 +590,12 @@ function StyleTag() {
   .eca-footer{margin-bottom:70px}
   .eca-mobar{display:flex}
   .eca-fab{bottom:78px;right:16px}
-  .eca-hero-btns .eca-btn-red{flex:1}
-  .eca-logo.s-sm{font-size:30px}
+  .eca-btn{white-space:normal;line-height:1.25;text-align:center}
+  .eca-hero-btns{width:100%}
+  .eca-hero-btns .eca-btn{width:100%;justify-content:center}
+  .eca-steps-cta .eca-btn{width:100%}
+  .eca-h1{font-size:clamp(2.2rem,8.5vw,3rem)}
+  .eca-logo.s-sm{font-size:29px}
 }
 @media (min-width:641px){.eca-fab-txt{display:inline}}
 `}</style>
