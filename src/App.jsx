@@ -413,8 +413,8 @@ function StyleTag() {
 .eca-btn:hover{transform:translateY(-2px)}
 .eca-btn-lg{padding:15px 26px;font-size:1.02rem}
 .eca-full{width:100%}
-.eca-btn-red{background:var(--red);color:#fff;box-shadow:0 8px 20px rgba(229,52,42,.28)}
-.eca-btn-red:hover{background:var(--red-dk)}
+.eca-btn-red{background:#2368A2;color:#fff;box-shadow:0 8px 20px rgba(35,104,162,.30)}
+.eca-btn-red:hover{background:#1b527f}
 .eca-btn-blue{background:var(--blue);color:#fff}
 .eca-btn-blue:hover{background:var(--blue-dk)}
 .eca-btn-wa{background:var(--wa);color:#fff;box-shadow:0 8px 20px rgba(37,211,102,.3)}
