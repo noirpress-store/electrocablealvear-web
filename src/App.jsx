@@ -31,7 +31,7 @@ const CONFIG = {
   // --- Ubicación (COMPLETAR) ----------------------------------------
   address: "Agustín Álvarez 497",
   city: "Gral. Alvear, Mendoza (M5620)",
-  hours: "Lun a Vie [horario] · Sáb [horario]", // <-- REEMPLAZAR
+  hours: "Lunes a Viernes de 15:30 a 19:30 hs",
   mapsLink: "https://www.google.com/maps/dir/?api=1&destination=Agust%C3%ADn%20%C3%81lvarez%20497%2C%20M5620%20Gral.%20Alvear%2C%20Mendoza",
   mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.3746237930836!2d-67.70163172428354!3d-34.97227997282437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967817005f481f15%3A0x91ec22d961d0b16a!2sElectro%20Cable%20Alvear!5e0!3m2!1ses-419!2sar!4v1784921423404!5m2!1ses-419!2sar",
 
