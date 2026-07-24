@@ -415,6 +415,8 @@ function StyleTag() {
 .eca-full{width:100%}
 .eca-btn-red{background:#2368A2;color:#fff;box-shadow:0 8px 20px rgba(35,104,162,.30)}
 .eca-btn-red:hover{background:#1b527f}
+.eca-btn-red,.eca-btn-red svg{color:#fff}
+.eca-btn-red svg *{fill:currentColor;stroke:currentColor}
 .eca-btn-blue{background:var(--blue);color:#fff}
 .eca-btn-blue:hover{background:var(--blue-dk)}
 .eca-btn-wa{background:var(--wa);color:#fff;box-shadow:0 8px 20px rgba(37,211,102,.3)}
