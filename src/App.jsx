@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 /* =====================================================================
    ELECTRO CABLE ALVEAR — Landing (versión corta y directa)
@@ -381,6 +382,9 @@ export default function ElectroCableAlvear() {
         <a href={CONFIG.mapsLink} target="_blank" rel="noreferrer"><Ico.Pin /><span>Cómo llegar</span></a>
         <button onClick={() => go("categorias")}><Ico.Grid /><span>Categorías</span></button>
       </nav>
+
+      {/* Vercel Speed Insights */}
+      <SpeedInsights />
     </div>
   );
 }
