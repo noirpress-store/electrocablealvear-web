@@ -401,7 +401,7 @@ function StyleTag() {
   font-family:var(--sans);color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;
 }
 .eca *{box-sizing:border-box;margin:0;padding:0}
-.eca a{color:inherit;text-decoration:none}
+.eca a{text-decoration:none}
 .eca button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
 .eca img,.eca iframe{max-width:100%;display:block}
 .eca-container{width:100%;max-width:1120px;margin:0 auto;padding:0 20px}
